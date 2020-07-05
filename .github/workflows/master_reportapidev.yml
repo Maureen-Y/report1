@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'reportapidev'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_13a7361fd133479382628bc0ee948a52 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_bcbc696a539f4227b724ab8b894c6e96 }}
         package: '${{ github.workspace }}/target/*.war'
